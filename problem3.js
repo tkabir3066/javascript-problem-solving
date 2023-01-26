@@ -11,6 +11,8 @@ console.log(convert(10)); // 600
 console.log(convert(20)); // 1200
 */
 
+////======== Solution =====/////
+
 function convert(minutes) {
   return minutes * 60;
 }
