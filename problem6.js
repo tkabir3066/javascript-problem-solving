@@ -12,6 +12,7 @@ console.log(getFirstValue(['hello', 'world', 'welcome'])); // hello
 
 */
 
+////===== Solution=========//
 function getFirstValue(arr) {
   return arr[0];
 }
