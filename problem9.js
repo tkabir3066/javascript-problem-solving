@@ -14,12 +14,23 @@ console.log(isSameNum(50, 50)); // true
 */
 
 ////===== Solution=========//
-function isSameNum(num1, num2) {
+
+// solution-1 with ternary operator
+/* function isSameNum(num1, num2) {
   let result = num1 === num2 ? true : false;
 
   return result;
-}
+} */
 
+// solution-2 with if-else
+
+function isSameNum(num1, num2) {
+  if (num1 === num2) {
+    return true;
+  } else {
+    return false;
+  }
+}
 console.log(isSameNum(30, 30)); // true
 console.log(isSameNum(20, 40)); // false
 console.log(isSameNum(50, 50)); // true
