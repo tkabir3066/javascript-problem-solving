@@ -14,7 +14,7 @@ console.log(numberSquares(6)); // 91
 
 //1st method
 function numberSquares(n) {
-  let squares = (n * (n + 1) * (2n + 1)) / 6;
+  let squares = (n * (n + 1) * (2 * n + 1)) / 6;
   return squares;
 }
 
